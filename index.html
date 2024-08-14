@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strive Fitness</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/club5.png"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-circle-one.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-circle-two.png" />
+    <link rel="preload" as="image" href="./assets/images/heart-rate.svg" />
+    <link rel="preload" as="image" href="./assets/images/calories.svg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+          <span class="span">Strive Fitness</span>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link
+                >Quienes somos</a
+              >
+            </li>
+
+            <li>
+              <a href="#class" class="navbar-link" data-nav-link>Classes</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link blue" data-nav-link
+                >Entrenadores</a
+              >
+            </li>
+
+            <li>
+              <a href="#contact us" class="navbar-link blue" data-nav-link
+                >Contacte con nosotros</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero bg-dark has-after has-bg-image"
+          id="home"
+          aria-label="hero"
+          data-section
+          style="background-image: url('./assets/images/hero-bg.png')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">
+                <strong class="strong">Lo mejor</strong>Strive Fitness
+              </p>
+
+              <h1 class="h1 hero-title">Trabajar duro para vivir mejor</h1>
+
+              <p class="section-text">
+                En Strive Fitness, nos dedicamos a ofrecerte una experiencia
+                completa para mejorar tu bienestar físico y estético. Nuestra
+                misión es ayudarte a alcanzar tus objetivos de salud y fitness
+                en un ambiente motivador y acogedor. Nos enorgullecemos de
+                contar con instalaciones de última generación y un equipo de
+                profesionales altamente capacitados que están comprometidos con
+                tu progreso y satisfacción.
+              </p>
+
+              <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="hero-banner">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="660"
+                height="753"
+                alt="hero banner"
+                class="w-100"
+              />
+              <div class="circle"></div>
+              <div class="circle-1"></div>
+
+              <!-- <img
+                src="./assets/images/calories.svg"
+                width="348"
+                height="224"
+                alt="calories"
+                class="abs-img abs-img-2"
+              /> -->
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container containerRes">
+            <div class="about-content">
+              <p class="section-subtitle">SOBRE NOSOTROS</p>
+
+              <h2 class="h2 section-title">Bienvenido a nuestro gimnasio</h2>
+
+              <p class="section-text">
+                Fundado en 1990, el Strive Fitness ha sido un pilar en la
+                comunidad, dedicándose a promover el bienestar y la salud
+                integral de sus miembros.
+              </p>
+
+              <p class="section-text">
+                Desde nuestros humildes comienzos, hemos evolucionado para
+                convertirnos en un centro de excelencia en fitness y estética,
+                combinando décadas de experiencia con innovación constante para
+                ofrecer los mejores servicios a nuestros clientes.
+              </p>
+            </div>
+            <div class="about-banner has-after">
+              <img
+                src="./assets/images/about-banner.png"
+                width="660"
+                height="648"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+              />
+              <div class="circle cirRes"></div>
+              <div class="circle-1 cirRes-1"></div>
+
+              <img
+                src="./assets/images/fitness.png"
+                width="650"
+                height="154"
+                loading="lazy"
+                alt="fitness"
+                class="abs-img w-100"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #VIDEO
+      -->
+
+        <section class="section video" aria-label="video">
+          <div class="container">
+            <div
+              class="video-card has-before has-bg-image"
+              style="background-image: url('./assets/images/video-banner.jpg')"
+            >
+              <iframe
+                width="1110"
+                height="510"
+                src="https://www.youtube.com/embed/tUykoP30Gb0?si=9OcsqknMeb_GF4AA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #CLASS
+      -->
+
+        <section
+          class="section class bg-dark has-bg-image"
+          id="class"
+          aria-label="class"
+          style="background-image: url('./assets/images/classes-bg.png')"
+        >
+          <div class="container">
+            <p class="section-subtitle">NUESTRAS CLASES</p>
+
+            <h2 class="h2 section-title text-center">
+              Clases de fitness para todos los objetivos
+            </h2>
+
+            <ul class="class-list has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="./assets/images/GAP.png"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="Cardio & Strenght"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-2.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">G.A.P</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">70%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 70%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="./assets/images/spinning.jpg"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="Weight Lifting"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-1.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">spinning</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">85%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 85%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="./assets/images/Rumba.jpg"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="Cardio & Strenght"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-2.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Rumba</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">70%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 70%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="./assets/images/Step.webp"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="Power Yoga"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-3.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Step</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">90%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 90%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="./assets/images/crossfit.jpg"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="The Fitness Pack"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-4.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Crossfit</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">60%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 60%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="./assets/images/funcionall.jpg"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="The Fitness Pack"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-4.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Funcional</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">60%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 60%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="./assets/images/abd.jpeg"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="The Fitness Pack"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-4.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">ABD</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">60%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 60%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="./assets/images/hiit.jpg"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="The Fitness Pack"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-4.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">HIT</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">60%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 60%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- crossfit -->
+          <div class="container">
+            <h2 class="h2 section-title1 text-center">Estetica</h2>
+
+            <ul class="class-list has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="https://www.consalud.es/estetic/uploads/s1/10/37/86/9/mujer-realizandose-un-tratamiento-estetico.jpeg"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="Cardio & Strenght"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-2.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title"
+                          >Medicina estética y envejecimiento</a
+                        >
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">70%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 70%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAiskfi_112hrFSscaDTGyLFt3bKsC56a07TW9c9YBoQ&s"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="Weight Lifting"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-1.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Rinoplastica</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">85%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 85%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="https://belessaesthetic.com/wp-content/uploads/2019/10/masajes-en-zaragoza.jpg"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="Cardio & Strenght"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-2.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Masajes Corporales</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">70%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 70%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="class-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 416; --height: 240"
+                  >
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPpOJGutJsBz92j3Upj9A6UsBssq4tLXPBlGY_7d8XhA&s"
+                      width="416"
+                      height="240"
+                      loading="lazy"
+                      alt="Power Yoga"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="title-wrapper">
+                      <!-- <img
+                        src="./assets/images/class-icon-3.png"
+                        width="52"
+                        height="52"
+                        aria-hidden="true"
+                        alt=""
+                        class="title-icon"
+                      /> -->
+
+                      <h3 class="h3">
+                        <a href="#" class="card-title">Masaje facial</a>
+                      </h3>
+                    </div>
+
+                    <p class="card-text">
+                      Suspendisse nisi libero, cursus ac magna sit amet,
+                      fermentum imperdiet nisi.
+                    </p>
+
+                    <div class="card-progress">
+                      <div class="progress-wrapper">
+                        <p class="progress-label">Class Full</p>
+
+                        <span class="progress-value">90%</span>
+                      </div>
+
+                      <div class="progress-bg">
+                        <div class="progress-bar" style="width: 90%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" id="blog" aria-label="blog">
+          <div class="container">
+            <p class="section-subtitle">Nuestros entrenadores</p>
+
+            <h2 class="h2 section-title text-center">
+              Entrenadores certificados
+            </h2>
+
+            <ul class="blog-list has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="blog-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 440; --height: 270"
+                  >
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      width="440"
+                      height="270"
+                      loading="lazy"
+                      alt="Going to the gym for the first time"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3">Robert</h3>
+
+                    <p class="card-text">
+                      Praesent id ipsum pellentesque lectus dapibus condimentum
+                      curabitur eget risus quam. In hac habitasse platea
+                      dictumst.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="blog-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 440; --height: 270"
+                  >
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      width="440"
+                      height="270"
+                      loading="lazy"
+                      alt="Parturient accumsan cacus pulvinar magna"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3">Luisa</h3>
+
+                    <p class="card-text">
+                      Praesent id ipsum pellentesque lectus dapibus condimentum
+                      curabitur eget risus quam. In hac habitasse platea
+                      dictumst.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="blog-card">
+                  <div
+                    class="card-banner img-holder"
+                    style="--width: 440; --height: 270"
+                  >
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      width="440"
+                      height="270"
+                      loading="lazy"
+                      alt="Risus purus namien parturient accumsan cacus"
+                      class="img-cover"
+                    />
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3">Carlos</h3>
+
+                    <p class="card-text">
+                      Praesent id ipsum pellentesque lectus dapibus condimentum
+                      curabitur eget risus quam. In hac habitasse platea
+                      dictumst.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <a
+        href="https://wa.me/3138401274?text=Hola,%20estoy%20interesado%20en%20sus%20servicios"
+        target="_blank"
+        class="whatsapp-widget"
+      >
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </a>
+      <div
+        class="section footer-top bg-dark has-bg-image"
+        id="contact us"
+        style="background-image: url('./assets/images/footer-bg.png')"
+      >
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <ion-icon name="barbell-sharp" aria-hidden="true"></ion-icon>
+
+              <p class="span">Vida en forma</p>
+            </a>
+
+            <p class="footer-brand-text">
+              Etiam suscipit fringilla ullamcorper sed malesuada urna nec odio.
+            </p>
+
+            <div class="wrapper">
+              <!-- <img
+                src="./assets/images/footer-clock.png"
+                width="34"
+                height="34"
+                loading="lazy"
+                alt="Clock"
+              /> -->
+
+              <ul class="footer-brand-list">
+                <li>
+                  <p class="footer-brand-title">Lunes - Viernes</p>
+
+                  <p>5:00Am - 9:00Pm</p>
+                </li>
+
+                <li>
+                  <p class="footer-brand-title">Sabados - Domingos</p>
+
+                  <p>7:00Am - 12:30Pm</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Contáctanos</p>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="location" aria-hidden="true"></ion-icon>
+              </div>
+
+              <address class="address footer-link">
+                1247/Plot No. 39, 15th Phase, Colony, Kukatpally, Hyderabad
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="call" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div>
+                <a href="tel:18001213637" class="footer-link">1800-121-3637</a>
+
+                <a href="tel:+915552348765" class="footer-link"
+                  >+91 555 234-8765</a
+                >
+              </div>
+            </li>
+
+            <li class="footer-list-item">
+              <div class="icon">
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+              </div>
+
+              <div>
+                <a href="mailto:info@fitlife.com" class="footer-link"
+                  >info@fitlife.com</a
+                >
+
+                <a href="mailto:services@fitlife.com" class="footer-link"
+                  >services@fitlife.com</a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title has-before">Ubicación</p>
+            </li>
+
+            <li class="mapa">
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086846104302!2d144.9559282151064!3d-37.817209842021576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5776d17878f8d6!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1604484202028!5m2!1sen!2sau"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024 Fitlife. All Rights Reserved By
+            <a href="#" class="copyright-link">codewithsadee.</a>
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link has-before"
+                >Privacy Policy</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link has-before"
+                >Terms & Condition</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
